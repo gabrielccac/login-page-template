@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <script
+      src="script.js"
+      defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <form action="#">
+          <h1 class="form-title">Create your account</h1>
+          <p class="form-description">Fill in to get access to the Platform</p>
+          <div class="form-layout">
+            <div class="form-input">
+              <label
+                for=""
+                class="input-label">
+                Email *
+                <input
+                  type="text"
+                  placeholder="Enter your Email"
+                  class="input-field" />
+              </label>
+            </div>
+            <div class="form-input">
+              <label
+                for=""
+                class="input-label">
+                ID Number *
+                <input
+                  type="text"
+                  placeholder="202064639"
+                  class="input-field" />
+              </label>
+            </div>
+            <div class="form-input">
+              <label
+                for=""
+                class="input-label">
+                Password *
+                <input
+                  type="password"
+                  placeholder="Create a password"
+                  class="input-field" />
+              </label>
+            </div>
+            <div class="form-input-checkbox">
+              <input
+                type="radio"
+                id="student-radio"
+                name="role"
+                value="student" />
+              <label for="student-radio">
+                <div class="user-role">
+                  <img
+                    src="images/student_1f9d1-200d-1f393.png"
+                    alt=""
+                    class="emoji" />
+                  <div class="flex-group">
+                    <h3>I'm a student</h3>
+                    <p>and want to increase my performance</p>
+                  </div>
+                </div>
+              </label>
+
+              <input
+                type="radio"
+                id="teacher-radio"
+                name="role"
+                value="teacher" />
+              <label for="teacher-radio">
+                <div class="user-role">
+                  <img
+                    src="images/man-teacher_1f468-200d-1f3eb.png"
+                    alt=""
+                    class="emoji" />
+                  <div class="flex-group">
+                    <h3>I'm a teacher</h3>
+                    <p>and want to manage my essays</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <button class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+      <button class="dark-mode-btn">
+        <img
+          src="images/Moon.svg"
+          alt=""
+          class="dark-mode-icon" />
+      </button>
+    </main>
+  </body>
+</html>
